@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="myH1">Welcome</h1>
+    <label for="username">Username</label>
+    <input type="text" id="myText"><br><br>
+    <button id="mySubmit">Submit</button>
+     <p id="myP"></p> 
+
+      <h1 id="myH1">Welcome Enter Radius</h1>
+    <label for="radius">Radius</label>
+    <input type="text" id="myText"><br><br>
+    <button id="mySubmit1">Submit</button>
+      <h3 id="myH3">Hi;</h3>
+
+      <label for="countLable" id="countLabel">0</label>
+      <div id="btnContainer">
+        <button id="decreaseBtn" class="buttons">Decrease</button>
+        <button id="resetBtn" class="buttons">Reset</button>
+        <button id="increaseBtn" class="buttons">Increase</button>
+      </div>
+<br><br><br><br>
+      <div id="randNum-container">
+      <button id="randBtn" >Roll the dice</button><br><br><br>
+      <label id="randLabel1" class="randLabel">First Dice </label>
+      <br><br>
+      <label id="randLabel2"  class="randLabel">Second Dice</label>
+      <br><br>
+      <label id="randLabel3" class="randLabel">Third Dice</label>
+      </div>
+      <br><br><br><br>
+      <div id="ageCheck-container">
+        <label>Enter your Age</label><br>
+        <input type="text" id="ageText"><br>
+        <button type="submit" id="myAgeSubmit">Submit</button><br>
+        <p id="resultElement"></p>
+      </div>
+      <br><br><br><br>
+
+      <div id="check-Radio">
+        <input type="checkbox" id = "myCheckBox">
+        <label for="myCheckBox">Subscribe</label> <br><br><br>
+
+        <input type="radio" id="visaBtn">
+        <label for="visaBtn">Visa</label><br><br>
+        <input type="radio" id="masterCardBtn">
+        <label for="masterCardBtn">MasterCard</label><br><br>
+        <input type="radio" id="payPalBtn">
+        <label for="payPalBtn">Paypal</label><br><br>
+
+        <button type="submit" id="mySubmitBtn">SUBMIT</button>
+
+        <p id="subResult"></p>
+        <p id="payMentResult"></p>
+      </div>
+
+      <div id="temp">
+<form action="">
+  <h1>Temperature conversion</h1>
+  <input type="number" id="textBox" value="0"><br>
+
+  <input type="radio" id="tohFahrenheit" name="unit">
+  <label for="tohFahrenheit">celsius➡ Fahrenheit </label><br>
+
+  <input type="radio" id="toCelsius" name="unit">
+  <label for="toCelsius">Fahrenheit➡ celsius </label>
+
+   <button type="button" onclick="convert()">SUBMIT</button>
+   <p id="result"></p>
+</form>
+      </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
