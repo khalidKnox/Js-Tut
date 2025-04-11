@@ -1,0 +1,103 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+
+}
+#btnContainer{
+    text-align: center;
+    background-color: black;
+}
+.buttons{
+    padding: 10px 20px ;
+    font-size: 1.5em;
+    color: black;
+    background-color: orangered;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+.buttons:hover{
+    background-color: blueviolet;
+
+}
+
+#randBtn{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.randLabel{
+    font-size: 3em;
+}
+
+#randNum-container{
+    background-color: aqua;
+}
+
+#randNum-container{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1em;
+}
+#ageCheck-container{
+    color: red;
+    background-color: blue;
+    font-size: 2em;
+}
+
+#check-Radio{
+    background-color: rgba(23, 202, 23, 0.151);
+    font-size: 2em;
+}
+#mySubmitBtn{
+    font-size: 1em;
+}
+
+#temp{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(216, 26, 216);
+}
+h1{
+    color: rgb(202, 216, 8);
+}
+form{
+    background-color: whitesmoke;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgb(0, 0%, 0%, 0.8);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button{
+    margin-top: 15px;
+    background-color: rgb(240, 6, 6);
+    font-size: 1.5em;
+    border: none;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgba(255, 0, 0, 0.534);
+}
+#result{
+    font-size: 1.7em;
+    font-weight: bold;
+}
